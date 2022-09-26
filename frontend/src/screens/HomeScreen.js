@@ -60,7 +60,42 @@ const HomeScreen = ({ match }) => {
           />
         </>
       )}
-      <p>Hi</p>;
+      <div id='call'></div>
+      <h1
+        style={{
+          paddingTop: 140,
+
+          justifyContent: 'center',
+          alignItems: 'center',
+          textAlign: 'center',
+          fontfamily: 'Raleway',
+          fontSize: 20,
+        }}
+      >
+        For Emergency Call On
+      </h1>
+      <h1
+        style={{
+          justifyContent: 'center',
+          alignItems: 'center',
+          textAlign: 'center',
+          fontfamily: 'Raleway',
+          fontSize: 30,
+        }}
+      >
+        57879630
+      </h1>
+      <p
+        style={{
+          paddingTop: 140,
+          fontfamily: 'Raleway',
+          fontSize: 20,
+        }}
+      >
+        Contact
+      </p>
+      <p>Hotline: 847</p>
+      <p>Email: Modokter@gmail.com</p>
     </>
   );
 };
