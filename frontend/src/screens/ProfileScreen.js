@@ -67,7 +67,6 @@ const ProfileScreen = ({ location, history }) => {
               <tr>
                 <th>DOCTOR</th>
                 <th>APPOINTMENT DATE</th>
-                <th>Time</th>
                 <th>PAID</th>
                 <th>Attended</th> <th>FollowUp 1</th>
                 <th>FollowUp 2</th>
@@ -83,7 +82,6 @@ const ProfileScreen = ({ location, history }) => {
                   ))}
 
                   <td>{book.bookDate}</td>
-                  <td>9.25-10.00</td>
 
                   <td>
                     {book.isPaid ? (
