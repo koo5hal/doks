@@ -1,0 +1,48 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+  font-family: 'Caveat', cursive;
+font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  font-family: 'Caveat', cursive;
+font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+
+  font-family: 'Caveat', cursive;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+
+.button{
+  background-color: "#874E4E";
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 400px) {
+  .carousel {
+  
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Caveat&family=Edu+NSW+ACT+Foundation&display=swap');
