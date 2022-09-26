@@ -151,20 +151,24 @@ const AppointmentEditScreen = ({ match, history }) => {
                 onChange={(e) => setspecialityOne(e.target.value)}
               >
                 <option value=''>Select...</option>
-                <option value='Pycho'>Allergists/Immunologists</option>
-                <option value='Skin'>Anesthesiologists</option>
-                <option value='Cardiac'>Cardiologists</option>
-                <option value='Dentist'>Colon and Rectal Surgeons</option>
-                <option value='Pediate'>Dermatologists</option>
-                <option value='Pycho'>Endocrinologists</option>
-                <option value='Skin'>Gastroenterologists</option>
-                <option value='Cardiac'>Hematologists</option>
-                <option value='Dentist'>Internists</option>
-                <option value='Pediate'>Neurologists</option>
-                <option value='Skin'>Pathologists</option>
-                <option value='Cardiac'>Pediatricians</option>
-                <option value='Dentist'>Physiatrists</option>
-                <option value='Pediate'>General Surgeons</option>
+                <option value='Allergists/Immunologists'>
+                  Allergists/Immunologists
+                </option>
+                <option value='Anesthesiologists'>Anesthesiologists</option>
+                <option value='Cardiologists'>Cardiologists</option>
+                <option value='Colon and Rectal Surgeons'>
+                  Colon and Rectal Surgeons
+                </option>
+                <option value='Dermatologists'>Dermatologists</option>
+                <option value='Endocrinologists'>Endocrinologists</option>
+                <option value='Gastroenterologists'>Gastroenterologists</option>
+                <option value='Hematologists'>Hematologists</option>
+                <option value='Internists'>Internists</option>
+                <option value='Neurologists'>Neurologists</option>
+                <option value='Pathologists'>Pathologists</option>
+                <option value='Pediatricians'>Pediatricians</option>
+                <option value='Physiatrists'>Physiatrists</option>
+                <option value='General Surgeons'>General Surgeons</option>
               </Form.Control>
             </Form.Group>
 
